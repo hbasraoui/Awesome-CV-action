@@ -8,7 +8,7 @@ main() {
   sanitize "${GITHUB_TOKEN}" "GITHUB_TOKEN"
   sanitize "${INPUT_FILE_NAME}" "INPUT_FILE_NAME"
 
-  TAG_NAME=v$(date +%m-%d-%Y.%H.%M)
+  TAG_NAME=v$(date +%d.%m.%Y.%H.%M)
 
 
   INPUT_EXTENSION="tex"
